@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="head">Todo</div>
+        <div class="theme-icons">
+          <img id="sun" src="./images/icon-sun.svg" alt="sun" />
+          <img id="moon" class="hide" src="./images/icon-moon.svg" alt="moon" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="todo-app">
+        <div class="input-todo light">
+          `
+          <label class="container">
+            <input type="checkbox" title="check" disabled />
+            <span class="checkmark"></span>
+          </label>
+          <input type="text" placeholder="Create a new todo..." />
+        </div>
+        <div class="todos">
+          <div class="todos-box light">
+            <div class="todo-box">
+              <div class="label">
+                <label class="container">
+                  <input class="checkbox" type="checkbox" title="check" />
+                  <span class="checkmark"></span>
+                </label>
+                <p class="todo-output">HMTL is the skeleton.</p>
+              </div>
+              <div class="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                  <path
+                    fill="#494C6B"
+                    fill-rule="evenodd"
+                    d="M16.97 0l.708.707L9.546 8.84l8.132 8.132-.707.707-8.132-8.132-8.132 8.132L0 16.97l8.132-8.132L0 .707.707 0 8.84 8.132 16.971 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="todo-box">
+              <div class="label">
+                <label class="container">
+                  <input class="checkbox" type="checkbox" title="check" />
+                  <span class="checkmark"></span>
+                </label>
+                <p class="todo-output">CSS is the beauty.</p>
+              </div>
+              <div class="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                  <path
+                    fill="#494C6B"
+                    fill-rule="evenodd"
+                    d="M16.97 0l.708.707L9.546 8.84l8.132 8.132-.707.707-8.132-8.132-8.132 8.132L0 16.97l8.132-8.132L0 .707.707 0 8.84 8.132 16.971 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="todo-box">
+              <div class="label">
+                <label class="container">
+                  <input class="checkbox" type="checkbox" title="check" />
+                  <span class="checkmark"></span>
+                </label>
+                <p class="todo-output">JavaScript is the functionality.</p>
+              </div>
+              <div class="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                  <path
+                    fill="#494C6B"
+                    fill-rule="evenodd"
+                    d="M16.97 0l.708.707L9.546 8.84l8.132 8.132-.707.707-8.132-8.132-8.132 8.132L0 16.97l8.132-8.132L0 .707.707 0 8.84 8.132 16.971 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="track light">
+            <p class="num-left"><span class="reader">3</span> items left</p>
+            <div class="todo-type desktop">
+              <p class="all category">All</p>
+              <p class="active">Active</p>
+              <p class="completed">Completed</p>
+            </div>
+            <p class="clear">Clear Completed</p>
+          </div>
+        </div>
+        <div class="mobile">
+          <div class="todo-type">
+            <p class="all category">All</p>
+            <p class="active">Active</p>
+            <p class="completed">Completed</p>
+          </div>
+        </div>
+      </div>
+      <p class="drag">Drag and drop to reorder list</p>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/IcyEazy">Adigun Israel Collins</a>.
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
